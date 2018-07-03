@@ -1,12 +1,12 @@
 data:
-  ClientID: <client-id>
-  ClientSecret: <client-secret>
-  ResourceGroup: <resource-group>
-  SubscriptionID: <subscription-id>
-  TenantID: <tenant-id>
+  ClientID:
+  ClientSecret:
+  ResourceGroup:
+  SubscriptionID:
+  TenantID:
   VMType: AKS
-  ClusterName: <cluster-name>
-  NodeResourceGroup: <node-resource-group>
+  ClusterName:
+  NodeResourceGroup: 
   MaxNodes: 5
   MinNodes: 1
   NodePoolName: nodepool1

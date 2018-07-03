@@ -1,0 +1,13 @@
+data:
+  ClientID: <client-id>
+  ClientSecret: <client-secret>
+  ResourceGroup: <resource-group>
+  SubscriptionID: <subscription-id>
+  TenantID: <tenant-id>
+  VMType: AKS
+  ClusterName: <cluster-name>
+  NodeResourceGroup: <node-resource-group>
+  MaxNodes: 5
+  MinNodes: 1
+  NodePoolName: nodepool1
+  ScanInterval: 10s

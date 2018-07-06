@@ -1,11 +1,8 @@
 
-{{- if and .Values.data.ClientID .Values.data.ClientSecret .Values.data.ResourceGroup
-.Values.data.SubscriptionID .Values.data.TenantID .Values.data.VMType .Values.data.ClusterName
-.Values.data.NodeResourceGroup .Values.data.MaxNodes .Values.data.MinNodes .Values.data.NodePoolName
-.Values.data.ScanInterval  -}}
+{{ if and .Values.data.ClientID .Values.data.ClientSecret .Values.data.ResourceGroup .Values.data.SubscriptionID .Values.data.TenantID .Values.data.VMType .Values.data.ClusterName .Values.data.NodeResourceGroup .Values.data.MaxNodes .Values.data.MinNodes .Values.data.NodePoolName .Values.data.ScanInterval  }}
 
 
-The aks-autoscaler is getting provisioned in your cluster. After a few minutes, you can run the following to verify.
+The aks-autoscaler is being provisioned in your cluster. After a few minutes, you can run the following to verify.
 
 To verify that aks-autoscaler has started, run:
 
